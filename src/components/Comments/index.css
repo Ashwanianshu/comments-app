@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.bg-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+.full-container{
+    margin-top: 10%;
+    width: 80%;   
+}
+.top-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.textarea-class{
+    margin-bottom: 10px;
+}
+.input-class{
+    width: 120px;
+    margin-bottom: 10px;
+}
+.btn{
+    height: 35px;
+    width: 110px;
+    background-color: #0284c7;
+    color: white;
+    border-radius: 10px;
+    border:none;
+}
+.comments-count-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.comments{
+margin-left: 4px;
+}
+.count-class{
+    background-color: #0284c7;
+    color: white;
+    padding: 3px;
+    font-size: 13px;
+}
